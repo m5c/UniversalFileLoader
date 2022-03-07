@@ -2,8 +2,8 @@
 
 Reliable resource access for stubborn libraries.
 
-![version](https://img.shields.io/badge/version-0.0.1-brightgreen)
-![coverage](https://img.shields.io/badge/coverage-0%25-red)
+![version](https://img.shields.io/badge/version-1.0.0-brightgreen)
+![coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
 ![building](https://img.shields.io/badge/build-passing-brightgreen)
 
 ## About
@@ -30,7 +30,7 @@ For a full description of available functionality, read the [JavaDoc](https://ka
 <dependency> 
     <groupId>eu.kartoffelquadrat</groupId>
     <artfactId>unversalfileloader</artfactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
 </dependency> 
 ```
 
