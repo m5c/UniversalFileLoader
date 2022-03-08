@@ -36,6 +36,11 @@ public class UniversalFileLoader {
         bufferDirFile.mkdirs();
     }
 
+    /**
+     * Singleton access method.
+     *
+     * @return UniversalFileLoader instance that can be used for resource access.
+     */
     public static UniversalFileLoader getInstance() {
         if (singletonReference == null) {
             singletonReference = new UniversalFileLoader();
@@ -62,8 +67,8 @@ public class UniversalFileLoader {
     }
 
     /**
-     * Uses standard java mechanisms to clone a resource on the project classpath to the OS temp directory. Then returns
-     * a Java file with a reliable reference to the cloned resource.
+     * Clones a resource on the project classpath to the OS temp directory and generated a java file object pointing to
+     * the copies file on disk.
      *
      * @param resourceName of a resource indexed by the project classpath.
      * @return File location of the cloned resource in the temp directory.
