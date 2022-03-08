@@ -46,6 +46,8 @@ public class UniversalFileLoader {
     /**
      * Helper method to recursively remove a directory with all contents. Source: Stackoverflow:
      * https://stackoverflow.com/a/29175213
+     *
+     * @param file as the location of the directory to be deleted with all contents.
      */
     public static void deleteDir(File file) {
         File[] contents = file.listFiles();
