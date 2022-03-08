@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"eu.kartoffelquadrat.ufl","c":"UniversalFileLoader","l":"deleteDir(File)","url":"deleteDir(java.io.File)"},{"p":"eu.kartoffelquadrat.ufl","c":"UniversalFileLoader","l":"getFileForResource(String)","url":"getFileForResource(java.lang.String)"},{"p":"eu.kartoffelquadrat.ufl","c":"UniversalFileLoader","l":"getInstance()"}]
