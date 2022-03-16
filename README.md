@@ -1,4 +1,4 @@
-# Book Store
+# Universal File Loader
 
 Reliable resource access for stubborn libraries.
 
