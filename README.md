@@ -15,7 +15,7 @@ file reference on demand.
  
 ## Documentation
 
-For a full description of available functionality, read the [JavaDoc](https://kartoffelquadrat.github.io/BookStoreInternals/eu/kartoffelquadrat/universalfileaccess/package-summary.html)
+For a full description of available functionality, read the [JavaDoc](https://kartoffelquadrat.github.io/UniversalFileLoader/eu/kartoffelquadrat/universalfileaccess/package-summary.html)
 
 ## Invokation
 
