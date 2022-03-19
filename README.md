@@ -29,7 +29,7 @@ For a full description of available functionality, read the [JavaDoc](https://ka
  ```xml
 <dependency> 
     <groupId>eu.kartoffelquadrat</groupId>
-    <artfactId>unversalfileloader</artfactId>
+    <artfactId>universalfileloader</artfactId>
     <version>1.0.0</version>
 </dependency> 
 ```
