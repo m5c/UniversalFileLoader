@@ -6,11 +6,10 @@ import org.junit.Test;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
 /**
- * Unit test for simple App.
+ * One and only unit test to verify file content access after cloning into buffer dir.
  */
 public class UniversalFileLoaderTest {
 

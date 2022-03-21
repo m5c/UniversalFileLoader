@@ -6,10 +6,8 @@ import java.io.InputStream;
 import java.nio.file.Files;
 
 /**
- * Some stubborn libraries may mandate you to load resources form disk as java File objects, completely ignoring the
- * fact that java has an established and reliable way to access resources from classpath. This library offers a
- * workaround, by cloning requested classpath resources into a file system buffer and producing a corresponding java
- * file reference on demand.
+ * This library provides file system access to classpath resources via an OS provided buffer directory. It can be used
+ * to provide reliable access via File objects for libraries that do not offer direct loading of classpath resources.
  *
  * @author Maximilian Schiedermeier
  */
