@@ -6,8 +6,8 @@ import java.io.InputStream;
 import java.nio.file.Files;
 
 /**
- * This library provides file system access to classpath resources via an OS provided buffer directory. It can be used
- * to provide reliable access via File objects for libraries that do not offer direct loading of classpath resources.
+ * This library provides file-system access for classpath resources, using the OS provided buffer directory. Resulting
+ * access is reliable and independent of program packaging and runtime environment.
  *
  * @author Maximilian Schiedermeier
  */

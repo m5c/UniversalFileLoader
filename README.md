@@ -8,21 +8,22 @@ Reliable file system access for classpath resources.
 
 ## About
 
-This library enables pseudo file system access for classpath resources, via replication to the OS-buffer directory. It provides reliable resource access independent of build and runtime context for API calls that stipulate resource loading via file system.
+This library provides file-system access for classpath resources, using the OS provided buffer directory. Resulting access is reliable and independent of program packaging and runtime environment.
  
 ### Example
 
- * Imagine you have a resource ```poem.txt``` in your classpath that you with to access at runtime.
- * The most reliable way is access as classpath resource.
- * However, [some libraries](https://download.eclipse.org/modeling/emf/emf/javadoc/2.4.2/org/eclipse/emf/ecore/resource/ResourceSet.html#getResource(org.eclipse.emf.common.util.URI,%20boolean)) may stipulate resource access as a [Java File object](https://docs.oracle.com/javase/7/docs/api/java/io/File.html).
- * File object paths are unreliable since they may be different depending on runtime environment.
- * As a workaround you can invoke this library and generate a reliable file system location via the OS provided buffer directory.
+ * Imagine a resource ```poem.txt``` in your classpath that you wish to access at runtime.
+ * The [third party library](https://download.eclipse.org/modeling/emf/emf/javadoc/2.4.2/org/eclipse/emf/ecore/resource/ResourceSet.html#getResource(org.eclipse.emf.common.util.URI,%20boolean)) consuming ```poem.txt``` mandates [a file system location](https://docs.oracle.com/javase/7/docs/api/java/io/File.html).
+ * File object paths are unreliable since they depend on product packaging and runtime environment, e.g.:
+    * Actual file location during development in IDE.
+    * Pseudo file location when packaged to a self-contained JAR.
+ * Using this library you obtain a reliable file system location for your classpath resource ```poem.txt```.
  
 ## Documentation
 
 For a full description of available functionality, read the [JavaDoc](https://kartoffelquadrat.github.io/UniversalFileLoader/eu/kartoffelquadrat/ufl/package-summary.html)
 
-## Invokation
+## Invocation
 
  1. Get the sources:  
 ```git clone https://github.com/kartoffelquadrat/UniversalFileAccess.git```
