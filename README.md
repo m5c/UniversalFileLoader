@@ -4,7 +4,9 @@ Reliable file system access for classpath resources.
 
 ![version](https://img.shields.io/badge/version-1.0.0-brightgreen)
 ![coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
-![building](https://img.shields.io/badge/build-passing-brightgreen)
+![mavenci](https://github.com/m5c/UniversalFileLoader/actions/workflows/maven.yml/badge.svg)
+
+
 
 ## About
 
