@@ -21,7 +21,7 @@ This library provides file-system access for classpath resources, using the OS p
  
 ## Documentation
 
-For a full description of available functionality, read the [JavaDoc](https://kartoffelquadrat.github.io/UniversalFileLoader/eu/kartoffelquadrat/ufl/package-summary.html)
+For a full description of available functionality, read the [JavaDoc](https://m5c.github.io/UniversalFileLoader/eu/kartoffelquadrat/ufl/package-summary.html)
 
 ## Invocation
 
@@ -48,7 +48,7 @@ For a full description of available functionality, read the [JavaDoc](https://ka
 ## Contact / Pull Requests
 
  * Author: Maximilian Schiedermeier ![email](email.png)
- * Github: Kartoffelquadrat
+ * Github: m5c
  * Webpage: https://www.cs.mcgill.ca/~mschie3
  * License: [MIT](https://opensource.org/licenses/MIT)
 
