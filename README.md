@@ -28,7 +28,7 @@ For a full description of available functionality, read the [JavaDoc](https://m5
 ## Invocation
 
  1. Get the sources:  
-```git clone https://github.com/kartoffelquadrat/UniversalFileAccess.git```
+```git clone https://github.com/m5c/UniversalFileAccess.git```
 
  2. Compile the project with maven. This adds the library to your local ```.m2``` repository.  
 ```mvn clean install```
